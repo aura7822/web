@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aura Joshua| Portfolio</title>
+  
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #af98c6;
+      color: #2e1a47;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      background: #c7aee8dd;
+    }
+
+    header img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-right: 20px;
+      border: 3px solid #9556c2;
+    }
+
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .alt {
+      background: #c7aee8dd;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      border: 2px solid #492861;
+      border-radius: 8px;
+      text-decoration: none;
+      color: #673b86;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #47295d;
+      color: #fff;
+    }
+
+    .partners {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      flex-wrap: wrap;
+    }
+
+    .partners img {
+      height: 80px;
+      max-width: 150px;
+      object-fit: contain;
+    }
+
+    blockquote {
+      background: #f2e6ff;
+      border-left: 5px solid #b77ddf;
+      margin: 20px auto;
+      padding: 15px;
+      width: 60%;
+      text-align: left;
+      font-style: italic;
+    }
+
+    form {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    input, textarea {
+      padding: 10px;
+      width: 80%;
+      max-width: 400px;
+      border: 2px solid #a768d3;
+      border-radius: 6px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #4d2c7abe;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER WITH PROFILE -->
+  <header>
+    <img src="/home/aurally/Pictures/logos/img 08.jpeg" alt="Profile Picture">
+    <div>
+      <h1>Aura Joshua</h1>
+      <p>Software Engineer || web developer || c++ developer || java enthusiast || system administrator</p>
+    </div>
+  </header>
+
+  <!-- ABOUT SECTION -->
+  <section>
+    <h2>BRAG :</h2>
+    <p>Hello! I’m Aura. I specialize in building creative software solutions and automation systems.</p>
+    <p>I specialise in the following fields such as bash scripting, bot development and automation,web pernetration testing etc</p>
+    <p>We are commited to working and adapted to work under tight schedules and deadlines 🕟</p>
+    <p>We work putting in mind swiftness and edge precision 🚀</p>
+    <p>we also value your wallet !</p>
+  </section>
+
+  
+  <!-- CV / RESUME SECTION -->
+  <section class="alt">
+    <h2>Download My CV / Resume</h2>
+    <a href="/home/aurally/Documents/2.1/past papers/BIT 2201 DATABASE MANAGEMENT SYSTEMS.pdf" class="btn" download>📄 Download CV</a>
+    <a href="/home/aurally/Documents/2.1/past papers/BIT 2201 DATABASE MANAGEMENT SYSTEMS.pdf" class="btn" download>📑 Download Resume</a>
+  </section>
+
+  <!-- PARTNERS SECTION -->
+  <section>
+    <h2>Partners :</h2>
+    <div class="partners">
+      <div>
+        <img src="/home/aurally/Pictures/logos/logo.webp" alt="Zetech University Logo">
+        <p>Zetech University</p>
+      </div>
+      <div>
+        <img src="/home/aurally/Pictures/logos/th-3370546234.jpeg" alt="Linux Foundation Logo">
+        <p>Linux Foundation</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="alt">
+    <h2>Testimonials</h2>
+    <div id="testimonials">
+      <blockquote>
+        <p>"Aura is one of the most innovative engineers I’ve worked with!"</p>
+        <footer>- Satisfied client</footer>
+      </blockquote>
+    </div>
+
+    <!-- Testimonial Form -->
+    <form id="testimonialForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <textarea id="message" rows="3" placeholder="Write your testimonial..." required></textarea>
+      <button type="submit" class="btn">Submit Testimonial</button>
+    </form>
+  </section>
+
+<!-- CONTACT SECTION -->
+  <section>
+    <h2>Reach out on :</h2>
+    <a href="https://wa.me/254113334497" class="btn">📱 WhatsApp</a>
+    <a href="mailto:joshuaura7822@gmail.com" class="btn">✉️ Email</a>
+    <a href="https://linkedin.com/in/joshua aura" class="btn">💼 LinkedIn</a>
+    <a href="https://github.com/aura7822" class="btn">🐙 GitHub</a>
+    <a href="https://twitter.com/joshua aura"class="btn">🐦Twitter</a>
+  </section>
+
+
+  <footer>
+    <p>© 2025 Aura | All Rights Reserved</p>
+  </footer>
+
+  <!-- JAVASCRIPT -->
+  <script>
+    const form = document.getElementById('testimonialForm');
+    const testimonialsDiv = document.getElementById('testimonials');
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      const name = document.getElementById('name').value;
+      const message = document.getElementById('message').value;
+
+      if (name && message) {
+        const blockquote = document.createElement('blockquote');
+        blockquote.innerHTML = `<p>"${message}"</p><footer>- ${name}</footer>`;
+        testimonialsDiv.appendChild(blockquote);
+
+        form.reset();
+      }
+    });
+  </script>
+
+</body>
+</html>
