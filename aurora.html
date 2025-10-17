@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SAMPLE REPOSITORIES</title>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #7b2cbf, #9d4edd, #c77dff);
+      color: white;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden; /* so flowers don't scroll */
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+      z-index: 2;
+      position: relative;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 20px 0;
+      z-index: 2;
+      position: relative;
+    }
+
+    li {
+      margin: 15px 0;
+    }
+
+    a {
+      text-decoration: none;
+      background: #ffb3ff;
+      color: #4a148c;
+      padding: 12px 25px;
+      border-radius: 30px;
+      font-size: 18px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+      display: inline-block;
+    }
+
+    a:hover {
+      background: #fff;
+      color: #7b2cbf;
+      transform: scale(1.1);
+    }
+
+    button {
+      margin-top: 25px;
+      padding: 14px 30px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      border: none;
+      border-radius: 30px;
+      background: #ff61d2;
+      background: linear-gradient(45deg, #ff61d2, #fe9090);
+      color: white;
+      transition: 0.3s;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.4);
+      z-index: 2;
+      position: relative;
+    }
+
+    button:hover {
+      background: linear-gradient(45deg, #fe9090, #ff61d2);
+      transform: scale(1.1);
+    }
+
+    /* Floating flowers */
+    .flower {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      background-image: url('https://i.ibb.co/mcJP2M1/purple-flower.png');
+      background-size: cover;
+      opacity: 0.4;
+      animation: float 20s linear infinite;
+    }
+
+    .flower:nth-child(1) { top: -100px; left: 10%; animation-duration: 25s; }
+    .flower:nth-child(2) { top: -120px; left: 30%; animation-duration: 18s; animation-delay: 3s; }
+    .flower:nth-child(3) { top: -150px; left: 50%; animation-duration: 22s; animation-delay: 6s; }
+    .flower:nth-child(4) { top: -130px; left: 70%; animation-duration: 28s; animation-delay: 2s; }
+    .flower:nth-child(5) { top: -140px; left: 90%; animation-duration: 20s; animation-delay: 5s; }
+
+    @keyframes float {
+      from { transform: translateY(0) rotate(0deg); }
+      to { transform: translateY(120vh) rotate(360deg); }
+    }
+  </style>
+  <script>
+    function openAll() {
+      var links = document.querySelectorAll("a");
+      links.forEach(link => window.open(link.href, '_blank'));
+    }
+  </script>
+</head>
+<body>
+  <!-- Floating flowers -->
+  <div class="flower"></div>
+  <div class="flower"></div>
+  <div class="flower"></div>
+  <div class="flower"></div>
+  <div class="flower"></div>
+
+  <h1>🌸 SAMPLE REPOSITORIES 🌸</h1>
+  <ul>
+    <li><a href="https://pastexams.mku.ac.ke/home">MKU</a></li>
+    <li><a href="https://exampapers.must.ac.ke/">MERU</a></li>
+    <li><a href="https://repository.chuka.ac.ke/communities/ea404f68-df7a-4d01-9c96-e4912b94ba96">CHUKA</a></li>
+    <li><a href="https://library.kibu.ac.ke/past-examination-papers/">KIBABI</a></li>
+    <li><a href="https://exambank.mut.ac.ke/xmlui/handle/123456789/358">MURANGA</a></li>
+  </ul>
+
+  <button onclick="openAll()">🌐 Open All Links</button>
+</body>
+</html>
