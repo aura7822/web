@@ -1,4 +1,7 @@
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
 # 🧱 Mozilla™ Privacy Hardening Client
+
 
 ### ⁜Action Ⅰ : initialize your browser [Firefox, Librewolf,Waterfox]
 
@@ -59,12 +62,18 @@
 <p align="center">
   <img src="1234.jpg" alt="Image 1" width="31%">
   <img src="proxy-image.jpg" alt="Image 2" width="30%">
-   <img src="imag.jpeg" alt="Image 1" width="31%">
+   <img src="imag.jpeg" alt="Image 1" width="35%">
+</p>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<p align="center">
+🙶 They build systems to watch men i build walls they never climb 🙸
+</p>
+<p align="center">
+   ~ Thomas Shelby
 </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-
-## 🌐 Route All LibreWolf Traffic Through Tor
+## 🌐 Route All [Firefox, Librewolf, Waterfox] Through Tor
 ⧉Red Hat Enteprise Linux :
 ```bash
 sudo dnf install tor
@@ -88,11 +97,11 @@ sudo systemctl start tor
 
 ⧉Windows :
 
-Download Tor from > https://www.torproject.org/download/tor/
+☑ Download Tor from > https://www.torproject.org/download/tor/
 
-Download the 'Window Expert Bundle' zip file
+☑ Download the 'Window Expert Bundle' zip file
 
-Extract and run the following in CMD : 
+☑ Extract and run the following in CMD : 
 ```shell
 C:\Tor
 cd C:\Tor
@@ -147,3 +156,23 @@ https://addons.mozilla.org/en-US/firefox/addon/startpage-private-search/
 ※BEST FOR : Evasion from Tutor monitoring during critical operations eg school assingments and CATs
 
 ---
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+### CASE Ⅱ : Implementing using user.js : 
+
+↬ Type about:support in your search engine
+
+↬ Find "Profile Folder" (a button labeled Open Folder or Open Directory).
+
+↬ Click Open Folder — this opens the profile directory where prefs.js lives. This is where you’ll add user.js
+
+⚠ If you want to revoke the changes delete the user.js file and restart librewolf[or Firefox / Waterfox]
+
+⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞
+
+<p align="center">
+✪ St✩r the repository for best practices !
+</p>
+<p align ="center">
+♕ By _____■□||🅐🅤🅡🅐__●○™___ ⌂ No licences implemented
+</p>
