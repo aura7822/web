@@ -168,7 +168,7 @@ https://addons.mozilla.org/en-US/firefox/addon/startpage-private-search/
 
 ⚠ If you want to revoke the changes delete the user.js file and restart librewolf[or Firefox / Waterfox]
 
-⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞
+⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞⛞
 
 <p align="center">
 ✪ St✩r the repository for best practices !
