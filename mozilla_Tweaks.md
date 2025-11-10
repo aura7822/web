@@ -1,12 +1,12 @@
 # 🧱 Mozilla™ Privacy Hardening Client
 
-### Action Ⅰ : initialize your browser [Firefox, Librewolf,Waterfox]
+### ⁜Action Ⅰ : initialize your browser [Firefox, Librewolf,Waterfox]
 
-### Action ⅠⅠ : type `about:config` on your search engine 
+### ⁜Action ⅠⅠ : type `about:config` on your search engine 
 
-### Action ⅡⅠ : Accept any constrains
+### ⁜Action ⅡⅠ : Accept any constrains
 
-### Action Ⅳ : Alter these from their parent values ↴ 
+### ⁜Action Ⅳ : Alter these from their parent values ↴ 
 
 ## ⚙️ about:config Settings
 
@@ -57,8 +57,9 @@
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <p align="center">
-  <img src="1234.jpg" alt="Image 1" width="40%">
-  <img src="proxy-image.jpg" alt="Image 2" width="40%">
+  <img src="1234.jpg" alt="Image 1" width="31%">
+  <img src="proxy-image.jpg" alt="Image 2" width="30%">
+   <img src="imag.jpeg" alt="Image 1" width="31%">
 </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
@@ -141,7 +142,7 @@ https://addons.mozilla.org/en-US/firefox/addon/startpage-private-search/
 
 ❖.Restart LibreWolf often to clear session metadata.
 
-※OUTCOME : You can comfortably surf the web without any form of tracing or tracking or monitoring
+※OUTCOME : You can comfortably surf the web without any form of Digital Footprint or monitoring
 
 ※BEST FOR : Evasion from Tutor monitoring during critical operations eg school assingments and CATs
 
