@@ -125,6 +125,8 @@ Proxy DNS when using SOCKS v5:
 
 ❖ install or use the StartPage® search engine from addons of Mozilla™-It gives more privacy 🢆
 
+❖ always paste full URLs when working with windows and the startpage search engine
+
 https://addons.mozilla.org/en-US/firefox/addon/startpage-private-search/
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
